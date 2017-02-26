@@ -18,3 +18,14 @@ puts !("testing" == "testing" && "Zed" == "Cool guy") #true
 puts 1 == 1 && (!("testing" == 1 || 1 == 0)) #true
 puts "chunky" == "bacon" && (!(3 == 4 || 3 == 3)) #false
 puts 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun")) #false
+
+#Study Drills
+#1.
+=begin
+!= - not equal
+== - equal
+>= - greater than equal
+<= - less than equal
+> - greater than
+< - less than
+=end
