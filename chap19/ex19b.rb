@@ -1,5 +1,5 @@
 #Study Drills
-
+#3.
 def pizza_party(pizza_count, people)
 puts "We have #{pizza_count} number of pizzas!"
 puts "And #{people} people!"
@@ -32,3 +32,9 @@ pizzas_each(100 + 746, 50 / 1)
 #Number 4
 pizza_party(pizza_count + 100 - 50 + 46, people + 50 / 10)
 pizzas_each(pizza_count + 100 + 746, people + 50 / 1)
+
+#Number 5
+more_pizza = 100
+less_people = 50
+pizza_party(pizza_count + more_pizza, less_people)
+pizzas_each(more_pizza, people + less_people)
