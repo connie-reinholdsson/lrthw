@@ -33,3 +33,7 @@ puts "Here is a puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"
+
+#Study Drills
+#2. Not sure how to do this..
+#5. Important, we don't have to use return.
