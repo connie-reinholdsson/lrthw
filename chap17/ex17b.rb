@@ -1,4 +1,5 @@
 #Study Drills
+#2.
 from_file, to_file = ARGV
 
 puts "Copying from #{from_file} #{to_file}"
@@ -9,5 +10,6 @@ out_file = open(to_file, 'w')
 out_file.write(indata)
 
 puts "Completed. "
-out_file.close
 in_file.close
+
+#4. It's important to close the file for security reasons, to avoid leaking file descriptors.
