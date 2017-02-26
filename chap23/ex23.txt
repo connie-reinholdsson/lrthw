@@ -1,0 +1,6 @@
+Read some code:
+Read some code on Github and here are my observations:
+- Many repositories split up their games into different modules and then 'require' the modules in the master file.
+- Most repositories have a READ.ME document. This is where we describe the purpose of the repository / instructions to run the programme.
+- .txt documents can be useful for storing information, or code which we won't want to run.
+- .md documents are similar to text documents however the text can be formatted to e.g. bold, headers, table formatting, hyperlinks etc.
