@@ -5,18 +5,20 @@ weight = 180 #lbs
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
+inches_to_cm = height * 2.54
+pounds_to_kilograms = weight * 0.453592
 
 puts "Let's talk about #{name}."
-puts "He's #{height} inches tall."
-puts "He's #{weight} pounds heavy."
+puts "He's #{inches_to_cm} cm tall."
+puts "He's #{pounds_to_kilograms} kg heavy."
 puts "Actually that's not too heavy."
 puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee."
 
 # this line is tricky, try to get it exactly right
-
 puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
 
 #Study Drills
-inches_to_cm = 74 * 2.54 # cm
-pounds_to_kilograms = 180 * 0.453592 #kilograms
+#1. Change all variables so there is no 'my_' in front of each one.
+#2. inches_to_cm = weight * 2.54 # cm
+#pounds_to_kilograms = height * 0.453592 #kilograms
