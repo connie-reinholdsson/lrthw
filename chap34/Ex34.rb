@@ -1,3 +1,6 @@
+#Study Drills
+#1. Because when it's 2010, it's been 2010 years, not 2009.
+
 training = ["Yoga", "HIIT", "Running", "Walking", "Spinning"]
 
 puts training[0] #Yoga
