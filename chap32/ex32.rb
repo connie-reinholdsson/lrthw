@@ -1,5 +1,4 @@
 #Arrays are the best way to store content from loops.
-
 the_count = [1, 2, 3, 4, 5]
 fruits = ['apples', 'oranges', 'pears', 'apricots']
 change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
@@ -9,9 +8,6 @@ change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 for number in the_count
   puts "This is count #{number}"
 end
-
-#Study Drills Example
-the_count.each {|i| puts "This is count #{i}"}
 
 # same as above, but in a more Ruby style
 # this and the next one are the preferred
@@ -31,9 +27,18 @@ elements = []
 # then we use the range operator to do 0 to 10 counts
 (0..10).each do |i|
   puts "adding #{i} to the list"
+  # pushes the i variable on the *end* of the list
   elements << i
   #We can use '<<' instead of method '.push(i)'
 end
 
 # now we can print them out too
 elements.each {|i| puts "Element was: #{i}"}
+
+#Study Drills
+#1. a) inclusive range operator: a..e => a, b, c, d, e
+#b) non-inclusve rage operator a...e => a, b, c, d
+#2.
+the_count.each {|i| puts "This is count #{i}"}
+#3. We can do
+#.push, .pop, .switch, .split, .length, .join.. 
