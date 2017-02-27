@@ -1,9 +1,8 @@
 #Overview
 #Door 1 or 2
-#if Door 1 => Another if statement.
-#elsif Door 2 => Another if statement with three options. => Another if statement.
+#if Door 1 => Another if statement. If 1 = die. Elsif 2 = die. Else = Survive!
+#elsif Door 2 => Another if statement. If 1 = survive. Elsif 2 = survive. Else = die!
 #else => Die!
-
 
 puts "You enter a dark room with two doors. Do you go through door #1 or door #2?"
 
