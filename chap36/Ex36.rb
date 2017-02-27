@@ -1,3 +1,22 @@
+=begin
+NOTES
+IF STATEMENTS
+1. Every if-statement must have an else.
+2. If else shouldn't run we must have a die function.
+3. Never nest if-statements more than two deep, try to do them one deep.
+4. Treat if statements like paragraphs.
+5. Your boolean tests should be simple.
+
+LOOPS
+1. Use a while loop to loop forever, and that means probably never.
+2. Use a for loop for all other kinds of looping.
+
+DEBUGGING
+1. Do not use a debugger.
+2. Use puts to print out variables and see what they're doing.
+3. Code a little.. run a little..
+=end
+
 
 def yes
 puts """
